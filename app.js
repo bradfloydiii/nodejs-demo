@@ -6,7 +6,6 @@ const hostname = 'localhost';
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'application/json');
-  console.log(port);
   res.end('Hello World test');
 });
 
